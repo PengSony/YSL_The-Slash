@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title itemprop='name'>Landing Page | Yellow Sea Logistic | Cambodia</title>
+    <title>Landing Page | Yellow Sea Logistic | Cambodia</title>
     <link href="http://yellowlg.demo.flexitech.io/img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,36 +18,128 @@
 </head>
 <body>
 
-    <div class="Header_NavBar">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="Main_logo" >
-                    <img src="image/yellow-sea-logo.png" style="height: 65px;width: 30%;vertical-align: middle;box-sizing: inherit">
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                <div class="NavigationBar" style="height: 100px">
-                    <div class="Navbar">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="#">HOME</a> </li>
-                                <li><a href="#">About US</a></li>
-                                <li><a href="#">Products&Service</a></li>
-                                <li><a href="#">NEWS</a> </li>
-                                <li><a href="#">Quote Request</a></li>
-                                <li><a href="#">Contact US</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--<div class="Header">--}}
+    {{--<nav class="navbar navbar-inverse navbar-fixed-top" style="height:100px;background-color: white">--}}
+        {{--<div class="Main_logo" style="position: fixed">--}}
+            {{--<img src="image/yellow-sea-logo.png">--}}
+        {{--</div>--}}
 
+        {{--<div class="Navbar">--}}
+            {{--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">--}}
+                {{--<span class="sr-only">Toggle navigation</span>--}}
+                {{--<span class="icon-bar"></span>--}}
+                {{--<span class="icon-bar"></span>--}}
+                {{--<span class="icon-bar"></span>--}}
+            {{--</button>--}}
+            {{--<div class="navbar-collapse collapse">--}}
+                {{--<ul class="nav navbar-nav">--}}
+                    {{--<li><a href="#">HOME</a> </li>--}}
+                    {{--<li><a href="#">About US</a></li>--}}
+                    {{--<li><a href="#">Products&Service</a></li>--}}
+                    {{--<li><a href="#">NEWS</a> </li>--}}
+                    {{--<li><a href="#">Quote Request</a></li>--}}
+                    {{--<li><a href="#">Contact US</a></li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</nav>--}}
+
+
+{{--<!-- Navigation -->--}}
+{{--<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">--}}
+    {{--<div class="container">--}}
+        {{--<!-- Brand and toggle get grouped for better mobile display -->--}}
+        {{--<div class="navbar-header page-scroll">--}}
+            {{--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">--}}
+                {{--<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>--}}
+            {{--</button>--}}
+            {{--<a class="navbar-brand" href="#page-top">--}}
+                {{--<img src="image/yellow-sea-logo.png" style=" width: 20%;height: 65px;margin-top: auto;">--}}
+            {{--</a>--}}
+        {{--</div>--}}
+
+        {{--<!-- Collect the nav links, forms, and other content for toggling -->--}}
+        {{--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">--}}
+            {{--<ul class="nav navbar-nav navbar-right">--}}
+                {{--<li class="hidden">--}}
+                    {{--<a href="#page-top"></a>--}}
+                {{--</li>--}}
+                {{--<li class="page-scroll">--}}
+                    {{--<a href="#portfolio">Portfolio</a>--}}
+                {{--</li>--}}
+                {{--<li class="page-scroll">--}}
+                    {{--<a href="#about">About</a>--}}
+                {{--</li>--}}
+                {{--<li class="page-scroll">--}}
+                    {{--<a href="#contact">Contact</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</div>--}}
+        {{--<!-- /.navbar-collapse -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container-fluid -->--}}
+{{--</nav>--}}
+
+    {{--<div class="Header_NavBar">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">--}}
+                {{--<div class="Main_logo" >--}}
+                    {{--<img src="image/yellow-sea-logo.png" style="height: 65px;width: 30%;vertical-align: middle;box-sizing: inherit">--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">--}}
+                {{--<div class="NavigationBar" style="height: 100px">--}}
+                    {{--<div class="Navbar">--}}
+                        {{--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">--}}
+                            {{--<span class="sr-only">Toggle navigation</span>--}}
+                            {{--<span class="icon-bar"></span>--}}
+                            {{--<span class="icon-bar"></span>--}}
+                            {{--<span class="icon-bar"></span>--}}
+                        {{--</button>--}}
+                        {{--<div class="navbar-collapse collapse">--}}
+                            {{--<ul class="nav navbar-nav">--}}
+                                {{--<li><a href="#">HOME</a> </li>--}}
+                                {{--<li><a href="#">About US</a></li>--}}
+                                {{--<li><a href="#">Products&Service</a></li>--}}
+                                {{--<li><a href="#">NEWS</a> </li>--}}
+                                {{--<li><a href="#">Quote Request</a></li>--}}
+                                {{--<li><a href="#">Contact US</a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+
+<div class="NavigationBar">
+    <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
+        {{--<div class="container-fluid" style="">--}}
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-right"><img src="image/yellow-sea-logo.png" height="65px">
+                </a>
+            </div>
+            <div id="navbar3" class="navbar-collapse collapse"style="background-color: #f9c803;">
+                <ul class="nav navbar-nav navbar-right" style="float: right;margin-right: 30px">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Product &amp; Service</a></li>
+                    <li><a href="#">Quote Request</a></li>
+                    <li class="Contact Us"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        {{--</div>--}}
+        <!--/.container-fluid -->
+    </nav>
+</div>
     <div class="slider">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -58,23 +150,24 @@
             <li data-target="#myCarousel" data-slide-to="3" style="z-index: 15;width: 6%;height: 1px"></li>
             <li data-target="#myCarousel" data-slide-to="4" style="z-index: 15;width: 6%;height: 1px"></li>
             </ol>
+
              <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="image/port-logistic-2.jpg"style="width:100%;height: 600px;">
+                    <img src="image/port-logistic-2.jpg" style="width:100%;height: 600px;">
                 </div>
                 <div class="item">
                     <img src="image/y-about-2.jpg" style="width:100%; height: 600px;">
                 </div>
 
                 <div class="item">
-                    <img src="image/new-slide-3.jpg"  style="width:100%;height: 600px;">
+                    <img src="image/new-slide-3.jpg" style="width:100%;height: 600px;">
                 </div>
                 <div class="item">
-                    <img src="image/air-logistic.jpg"  style="width:100%;height: 600px;">
+                    <img src="image/air-logistic.jpg" style="width:100%;height: 600px;">
                 </div>
                 <div class="item">
-                    <img src="image/truck-logistic.jpg"  style="width:100%;height: 600px;">
+                    <img src="image/truck-logistic.jpg" style="width:100%;height: 600px;">
                 </div>
             </div>
             <!-- Left and right controls -->
@@ -116,7 +209,6 @@
                 </div>
                 <div class="Image">
                     <img src="../image/port-logistic.jpg" style="width:100%; height:500px;">
-
                 </div>
             </div>
         </div>
@@ -124,9 +216,9 @@
 
     <div class="Body">
         <div class="txt_productService">
-            <h2>Product &amp; Services</h2><hr>
+            <h2>Product &amp; Services</h2><hr style="width: 15%">
         </div>
-        <div class="container" style="max-width: 1400px;">
+        <div class="container-fluid" style="max-width: 1400px;">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="intermodalService">
@@ -139,7 +231,7 @@
                         <p>We have a strong product designed as we have a warehouse combined with local<br>
                             intermodal service. It will save you time, cost and security.Your cargos will delivered at the destination all at the same time.
                         </p>
-                        <hr style="border: 1px solid yellow; width: 80px; text-align: center">
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -147,6 +239,7 @@
                         <img src="../image/intermodal_main.jpg" class="img-responsive" style="width:100%; height:300px;">
                     </div>
                 </div>
+                <hr style="border: 1px solid darkorange; width: 40px; text-align: center;margin-top: 30px">
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
@@ -158,7 +251,7 @@
                             you wish to ship your cargo in the globe.We handle them with <br>Care and Responsibility.
                             Given your available time range, we will support you to present your cargos to anypalce
                             of your request with the cost effectiveness.</p>
-                        <hr>
+
                     </div>
                 </div>
                 <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
@@ -166,7 +259,9 @@
                         <img src="../image/frieght_forward.jpg" class="img-responsive" style="width:100%; height:300px;">
                     </div>
                 </div>
+                <hr style="border: 1px solid darkorange; width: 40px; text-align: center;margin-top: 30px">
             </div>
+
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="txt_custom">
@@ -180,7 +275,6 @@
                         <p>We have a strong product designed as we have a warehouse combined with local<br>
                            intermodal service. It will save you time, cost and security.Your cargos will delivered at the destination all at the same time.
                         </p>
-                        <hr>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -188,6 +282,9 @@
                         <img src="../image/custom-brokerage.jpg" class="img-responsive" style="width:100%; height:300px;">
                     </div>
                 </div>
+                </div>
+            </div>
+            <hr style="border: 1px solid darkorange; width: 40px; text-align: center;margin-top: 20px">
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
@@ -199,7 +296,6 @@
                             warehouse which is standardize, highly maintianed and ideally safe. There is also our value
                             added service to distribute your wish-list cargo to you whether it is in a small or big volume.
                         </p>
-                        <hr>
                     </div>
                 </div>
                 <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
@@ -208,8 +304,8 @@
                     </div>
                 </div>
             </div>
+        <hr style="border: 1px solid darkorange; width: 40px; text-align: center;margin-top: 20px">
         </div>
-    </div>
             <div class="Footer">
                 <div class="row">
                     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
@@ -249,7 +345,7 @@
                                 <li><a href="#">Contact US</a></li>
                                 </ul>
                             </div>
-                            <hr>
+                            <hr style="width: 20%">
                             <div class="copyRight">
                                 <p>&copy; 2017 Yellow Sea Logistic. All right reserved.Designed by <strong>Flexitech</strong></p>
                             </div>
