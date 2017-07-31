@@ -392,7 +392,7 @@ nav{
     }
 
     .End_footer{
-        height: 300px;
+        height: 320px;
         width: 100%;
         margin: auto;
         margin-bottom: 30px;
@@ -437,5 +437,6 @@ nav{
     }
     .copyRight p strong{
         color: white;
+        font-size: 20px;
         font-family: Roboto Condensed,Serif;
     }
