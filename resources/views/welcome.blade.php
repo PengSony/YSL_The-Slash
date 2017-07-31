@@ -73,21 +73,21 @@
 
              <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="item active">
-                    <img src="image/new-slide-3.jpg" style="width:100%;height: 600px">
+                <div class="item active" id="slide1">
+                    <img id="slide1" src="image/new-slide-3.jpg" style="width:100%;height: 500px;">
                 </div>
-                <div class="item">
-                    <img src="image/new-slide-1.jpg" style="width:100%;height: 600px">
+                <div id="slide2" class="item">
+                    <img src="image/new-slide-1.jpg" style="width:100%;height: 500px">
                 </div>
 
-                <div class="item">
-                    <img src="image/y-slide-3.JPG" style="width:100%;height: 600px">
+                <div id="slide3" class="item">
+                    <img src="image/y-slide-3.JPG" style="width:100%;height: 500px">
                 </div>
-                <div class="item">
-                    <img src="image/port-logistic-2.jpg" style="width:100%;height: 600px">
+                <div id="slide4" class="item">
+                    <img src="image/port-logistic-2.jpg" style="width:100%;height: 500px">
                 </div>
-                <div class="item">
-                    <img src="image/new-slide-3.jpg" style="width:100%;height: 600px">
+                <div id="slide5" class="item">
+                    <img src="image/new-slide-3.jpg" style="width:100%;height: 500px">
                 </div>
             </div>
             <!-- Left and right controls -->
@@ -101,13 +101,13 @@
             </a>
         </div>
         <div class="Text ">
-            <div class="Text1 text-center">
+            <div class="Text1 text-center" style=" font-family: Roboto Condensed,Serif;">
                 <p>YELLOW SEA LOGISTICS offers the supports for the foods transportation both
                     <br>locally and globally such as Rail Freight, Intermodal, Air Freight, Ocean Freight,
                     <br>Custom Broker and Warehousing /Distribution
                 </p>
             </div>
-            <button class="ButtonHead" >QUOTE REQUEST</button>
+            <button class="ButtonHead" style=" font-family: Roboto Condensed,Serif;margin-top: 70px" >QUOTE REQUEST</button>
         </div>
     <div class="feature">
         <div class="jumbotron" style=" font-family: Roboto Condensed,Serif;">
@@ -115,7 +115,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <p style=" font-family: Roboto Condensed,Serif;">About <span style="color: #f9c803">Yellowsea Logistic</span></p>
-                        <p>Yellow Sea Logistic offers the supports for the goods transportation both locally and globally such as Rail Freight,
+                        <p >Yellow Sea Logistic offers the supports for the goods transportation both locally and globally such as Rail Freight,
                            Intermodal,Air Freight,Ocean Freight,Custom Broker,and Warehousing/ Distribution.<br>
                         </p>
                         <p>Based on our strong assets and facilities,we have been motivated to start our first service providing in 2016,
@@ -160,79 +160,87 @@
                         <img src="../image/intermodal_main.jpg" class="img-responsive" style="width:100%; height:300px;">
                     </div>
                 </div>
-                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 30px;background-color: #f9c803">
+                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 60px;background-color: #f9c803">
+            </div>
+
+            <div class="row">
+                <div class="FreighForward">
+                    <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
+                        <div class="txt_freigh" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
+                            <h2>Freight Forwarding</h2>
+                            <p>By Ocean or Air, FCL or LCL,we believe that we are the one for you.We focus to offer the fast
+                                and premium service/Port to Port/ to Port/Port to Door.</p>
+                            <p>We desing our service as per your individual requirements from/to almost anywhere
+                                you wish to ship your cargo in the globe.We handle them with <br>Care and Responsibility.
+                                Given your available time range, we will support you to present your cargos to anypalce
+                                of your request with the cost effectiveness.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
+                        <div class="img_freign">
+                            <img src="../image/frieght_forward.jpg" class="img-responsive" style="width:100%; height:300px;">
+                        </div>
+                    </div>
+                </div>
+                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 60px;background-color: #f9c803">
+            </div>
+
+            <div class="row">
+                <div class="Custom">
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="txt_custom" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
+                            <h2>Custom House Brokerags</h2>
+                            <p>For ease of doing your trading business,we urge to provide you -Custom
+                                House Brokerage service supporting your imports businesses.<br>
+                            </p>
+                            <p>We will cover all the praparations of required documents, taxes/duties caculation and
+                                payment, ensuring customs fomality completion in the fast maner, so your cargo will be available as planned
+                            </p>
+                            <p>We have a strong product designed as we have a warehouse combined with local<br>
+                                intermodal service. It will save you time, cost and security.Your cargos will delivered at the destination all at the same time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="img_custom">
+                            <img src="../image/custom-brokerage.jpg" class="img-responsive" style="width:100%; height:300px;">
+                        </div>
+                    </div>
+                </div>
+                <hr style="border: 1px solid #f9c803;background-color: #f9c803; width: 40px; text-align: center;margin-top: 40px">
             </div>
             <div class="row">
+                <div class="Warehousing">
                 <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
-                    <div class="txt_freigh" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
-                        <h2>Freight Forwarding</h2>
-                        <p>By Ocean or Air, FCL or LCL,we believe that we are the one for you.We focus to offer the fast
-                            and premium service/Port to Port/ to Port/Port to Door.</p>
-                        <p>We desing our service as per your individual requirements from/to almost anywhere
-                            you wish to ship your cargo in the globe.We handle them with <br>Care and Responsibility.
-                            Given your available time range, we will support you to present your cargos to anypalce
-                            of your request with the cost effectiveness.</p>
 
+                        <div class="txt_warehousing" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
+                            <h2>WareHousing and Distribution</h2>
+                            <p>Storage is crucially important for your cargos as it is the starting before
+                                bringing your cargos to the world or to your retails shop.<br></p>
+                            <p>We keep it a priority when it comes to this. That is why we have our own
+                                warehouse which is standardize, highly maintianed and ideally safe. There is also our value
+                                added service to distribute your wish-list cargo to you whether it is in a small or big volume.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
+                        <div class="img_warehousing">
+                            <img src="../image/new-warehousing.jpg" class="img-responsive" style="width:100%; height:300px;">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
-                    <div class="img_freign">
-                        <img src="../image/frieght_forward.jpg" class="img-responsive" style="width:100%; height:300px;">
-                    </div>
-                </div>
-                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 40px;background-color: #f9c803">
             </div>
-
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <div class="txt_custom" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
-                        <h2>Custom House Brokerags</h2>
-                        <p>For ease of doing your trading business,we urge to provide you -Custom
-                            House Brokerage service supporting your imports businesses.<br>
-                        </p>
-                        <p>We will cover all the praparations of required documents, taxes/duties caculation and
-                           payment, ensuring customs fomality completion in the fast maner, so your cargo will be available as planned
-                        </p>
-                        <p>We have a strong product designed as we have a warehouse combined with local<br>
-                           intermodal service. It will save you time, cost and security.Your cargos will delivered at the destination all at the same time.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="img_custom">
-                        <img src="../image/custom-brokerage.jpg" class="img-responsive" style="width:100%; height:300px;">
-                    </div>
-                </div>
-            <hr style="border: 1px solid #f9c803;background-color: #f9c803; width: 40px; text-align: center;margin-top: 40px">
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
-                    <div class="txt_warehousing" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
-                        <h2>WareHousing and Distribution</h2>
-                        <p>Storage is crucially important for your cargos as it is the starting before
-                            bringing your cargos to the world or to your retails shop.<br></p>
-                        <p>We keep it a priority when it comes to this. That is why we have our own
-                            warehouse which is standardize, highly maintianed and ideally safe. There is also our value
-                            added service to distribute your wish-list cargo to you whether it is in a small or big volume.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-md-pull-8 col-sm-12 col-xs-12">
-                    <div class="img_warehousing">
-                        <img src="../image/new-warehousing.jpg" class="img-responsive" style="width:100%; height:300px;">
-
-                    </div>
-                </div>
-        <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 40px;background-color: #f9c803">
+            <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 40px;background-color: #f9c803">
         </div>
-        </div>
+
             <div class="Footer">
                 <div class="row">
                     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="img_near_footer">
                             <div class="contain"></div>
                             <div class="txt_near_footer" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
-                                <p>YELLOW SEA LOGISTICS offers the supports for the foods transportation both<br>
+                                <p style="tab-index: 20px">YELLOW SEA LOGISTICS offers the supports for the foods transportation both<br>
                                     locally and globally such as Rail Freight, Intermodal
                                     ,Air Freight, Ocean Freight,<br>Custom Broker and Warehousing /Distribution
                                 </p>
@@ -258,7 +266,7 @@
                     </div>
                     <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-lg visible-md visible-sm visible-xs text-center">
                         <div class="End_footer">
-                            <div class="NavbarFooter" style=" font-family: Roboto Condensed,Serif;font-size: 18px">
+                            <div class="NavbarFooter" style=" font-family: Roboto Condensed,Serif;font-size: 18px;margin: auto">
                                 <ul>
                                 <li><a href="#">About US</a></li>
                                 <li><a href="#">Products & Service</a></li>
