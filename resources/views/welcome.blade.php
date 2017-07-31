@@ -160,8 +160,8 @@
                         <img src="../image/intermodal_main.jpg" class="img-responsive" style="width:100%; height:300px;">
                     </div>
                 </div>
-                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 60px;background-color: #f9c803">
             </div>
+            <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 40px;background-color: #f9c803;">
 
             <div class="row">
                 <div class="FreighForward">
@@ -183,8 +183,8 @@
                         </div>
                     </div>
                 </div>
-                <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 60px;background-color: #f9c803">
             </div>
+            <hr style="border: 1px solid #f9c803; width: 40px; text-align: center;margin-top: 40px;background-color: #f9c803">
 
             <div class="row">
                 <div class="Custom">
@@ -208,8 +208,8 @@
                         </div>
                     </div>
                 </div>
-                <hr style="border: 1px solid #f9c803;background-color: #f9c803; width: 40px; text-align: center;margin-top: 40px">
             </div>
+            <hr style="border: 1px solid #f9c803;background-color: #f9c803; width: 40px; text-align: center;margin-top: 40px">
             <div class="row">
                 <div class="Warehousing">
                 <div class="col-md-8 col-md-push-4 col-sm-12 col-xs-12">
