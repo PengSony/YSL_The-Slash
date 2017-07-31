@@ -102,12 +102,12 @@
         </div>
         <div class="Text ">
             <div class="Text1 text-center" style=" font-family: Roboto Condensed,Serif;">
-                <p>YELLOW SEA LOGISTICS offers the supports for the foods transportation both
+                <p style="margin-top: -150px">YELLOW SEA LOGISTICS offers the supports for the foods transportation both
                     <br>locally and globally such as Rail Freight, Intermodal, Air Freight, Ocean Freight,
                     <br>Custom Broker and Warehousing /Distribution
                 </p>
             </div>
-            <button class="ButtonHead" style=" font-family: Roboto Condensed,Serif;margin-top: 70px" >QUOTE REQUEST</button>
+            <button class="ButtonHead" style=" font-family: Roboto Condensed,Serif;margin-top: 60px" >QUOTE REQUEST</button>
         </div>
     <div class="feature">
         <div class="jumbotron" style=" font-family: Roboto Condensed,Serif;">
