@@ -11,9 +11,30 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/Home', function () {
+    return view('Home');
 });
-Route::get('home',function(){
-    return View ('welcome');
+Route::get('News',function(){
+    return View ('News');
 });
+Route::get('QuoteRequest',function(){
+    return View ('QuoteRequest');
+});
+Route::get('ContactUs',function(){
+    return View ('ContactUs');
+});
+Html::macro('clever_link',function($route){
+    $path=Request::path();// recieve path from server
+    $active="";
+    //return $route. ' === '. $path; // this for print for sure what our path and route it's equal or not
+    if($route == $path){
+        $active="active";// can be active ,focus or anything in style css
+    }
+    else{
+        $active="";
+    }
+    return $active;
+});
+
+
+
