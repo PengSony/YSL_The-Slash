@@ -4,7 +4,7 @@
     <div class="img_news">
         <img src="image/container-sea-port.jpg"style="width:100%;height: 600px">
         <div class="Text " style="font-family: 'Roboto Condensed', sans-serif";>
-            <div class="Text1 text-center" style="font-family: 'Roboto Condensed', sans-serif;">
+            <div class="Text1 text-center hidden-md hidden-sm hidden-xs" style="font-family: 'Roboto Condensed', sans-serif;">
                 <p style="color: #f9c803;font-size: 25px;text-align: center;display: table-cell;vertical-align: middle" >
                     Quote Request
                 </p>

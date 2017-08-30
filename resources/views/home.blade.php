@@ -60,7 +60,7 @@
         <div class="container-fluid" style="max-width:1200px;">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p id="aboutus" style=" font-family: Roboto Condensed,Serif;margin-top: 80px;">About <span style="color: #f9c803;">Yellowsea Logistic</span></p>
+                    <p id="ab" style=" font-family: Roboto Condensed,Serif;margin-top: 80px;">About <span style="color: #f9c803;">Yellowsea Logistic</span></p>
                     <p >Yellow Sea Logistic offers the supports for the goods transportation both locally and globally such as Rail Freight,
                         Intermodal,Air Freight,Ocean Freight,Custom Broker,and Warehousing/ Distribution.<br>
                     </p>
@@ -82,7 +82,7 @@
 </div>
 
 <div class="Body">
-    <div class="txt_productService" id="product">
+    <div class="txt_productService" id="pr">
         <h2 style=" font-family: Roboto Condensed,Serif;">Product &amp; Services</h2><hr>
     </div>
     <div class="container-fluid" style="max-width: 1200px;">
@@ -199,6 +199,4 @@
             </div>
         </div>
     </div>
-
-
 @endsection
