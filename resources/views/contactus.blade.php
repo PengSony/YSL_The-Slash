@@ -33,15 +33,16 @@
        <div class="icon-contactus" style="text-align: center;margin: 40px;">
            <div class="row">
                <div class="col-md-4 col-sm-12 col-xs-12">
-           <p><span class="glyphicon glyphicon-phone-alt" style="font-size: 40px;"></span><br></p>
-               <p ><span style="font-size: 20px;"><strong>Any Question?</strong></span><br>
-               <span style="font-size: 14px;color: gray">+855 61 333 117<br>
-                   +855 61 333 500</span>
+           <p><span class="glyphicon glyphicon-map-marker" style="font-size: 40px;color: #f9c803"></span><br></p>
+               <p ><span style="font-size: 20px;"><strong>Find Us On Map</strong></span><br>
+               <span style="font-size: 14px;color: gray">#G26, Street Gold,<br>
+                   Sangkat Tumnub Terk,<br>
+                   Khan Chamkarmon, Phnom Penh<br></span>
            </p>
                </div>
 
                <div class=" col-md-4 col-sm-12 col-xs-12">
-                   <p><span class="glyphicon glyphicon-phone-alt" style="font-size: 40px;"></span><br></p>
+                   <p><span class="glyphicon glyphicon-phone-alt" style="font-size: 40px;color: #f9c803"></span><br></p>
                    <p ><span style="font-size: 20px;"><strong>Any Question?</strong></span><br>
                        <span style="font-size: 14px;color: gray">+855 61 333 117<br>
                    +855 61 333 500</span>
@@ -49,10 +50,9 @@
                </div>
 
                <div class="col-md-4 col-sm-12 col-xs-12">
-                   <p><span class="glyphicon glyphicon-phone-alt" style="font-size: 40px;"></span><br></p>
-                   <p><span style="font-size: 20px;"><strong>Any Question?</strong></span><br>
-                       <span style="font-size: 14px;color: gray">+855 61 333 117<br>
-                   +855 61 333 500</span>
+                   <p><span class="glyphicon glyphicon-envelope" style="font-size: 40px;color: #f9c803"></span><br></p>
+                   <p><span style="font-size: 20px;"><strong>Write Us A Message</strong></span><br>
+                       <span style="font-size: 14px;color: gray">csmng@yellowsea.asia</span>
                    </p>
                </div>
        </div>
